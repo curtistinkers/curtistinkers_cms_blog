@@ -9,3 +9,7 @@ install:
   - highlightjs_input_filter
   - views_rss_core
   - views_rss_media
+config:
+  actions:
+    user.role.authenticated:
+      grantPermission: 'use text format comment_format'
