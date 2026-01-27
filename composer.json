@@ -1,0 +1,14 @@
+{
+    "name": "curtistinkers/curtistinkers_cms_blog",
+    "type": "drupal-recipe",
+    "authors": [
+        {
+            "name": "curtistinkers",
+            "email": "curtistinkers.commit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/highlightjs_input_filter": "^1.1"
+    }
+}
