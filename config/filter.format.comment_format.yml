@@ -5,6 +5,7 @@ dependencies:
     - highlightjs_input_filter
 name: Comment
 format: comment_format
+weight: 0
 filters:
   filter_autop:
     id: filter_autop
