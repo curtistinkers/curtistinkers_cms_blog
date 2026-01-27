@@ -9,6 +9,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "drupal/highlightjs_input_filter": "^1.1"
+        "drupal/highlightjs_input_filter": "^1.1",
+        "drupal/ui_icons": "^1.1",
+        "drupal/views_rss":"^2.4"
     }
 }
