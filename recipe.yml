@@ -5,5 +5,7 @@ recipes:
   - drupal_cms_content_type_base
   - drupal_cms_media
 install:
+  - comment
+  - filter_highlightjs
   - views_rss_core
   - views_rss_media
