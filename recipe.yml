@@ -6,6 +6,6 @@ recipes:
   - drupal_cms_media
 install:
   - comment
-  - filter_highlightjs
+  - highlightjs_input_filter
   - views_rss_core
   - views_rss_media
