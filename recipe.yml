@@ -1,0 +1,9 @@
+name: Blog
+description: Provides blog entity.
+type: Curtis Tinkers CMS
+recipes:
+  - drupal_cms_content_type_base
+  - drupal_cms_media
+install:
+  - views_rss_core
+  - views_rss_media
