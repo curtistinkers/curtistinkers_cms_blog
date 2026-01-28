@@ -24,13 +24,13 @@ default:
       uuid: 9c27d6dd-602f-4294-8c9d-4da337b7a049
       component_id: sdc.curtistinkers_theme.section
       inputs:
-        width: 100%
+        width: 90%
         columns: '100'
         mobile_columns: '1'
-        margin_block_start: '48'
-        margin_block_end: '48'
-        padding_block_start: '0'
-        padding_block_end: '0'
+        margin_block_start: '0'
+        margin_block_end: '32'
+        padding_block_start: '16'
+        padding_block_end: '16'
         section_header: true
         section_footer: true
     -
@@ -40,10 +40,20 @@ default:
       component_id: sdc.curtistinkers_theme.heading
       inputs:
         heading_text: 'Blog posts'
-        level: 2
+        level: 1
         text_size: default
         text_color: primary
         align: left
+    -
+      parent_uuid: 9c27d6dd-602f-4294-8c9d-4da337b7a049
+      slot: main_slot
+      uuid: f41c97f3-1386-4df6-a019-d0a7ca7d226d
+      component_id: block.views_block.blog-all_blog_posts_block
+      inputs:
+        label: 'All blog posts'
+        label_display: '0'
+        views_label: ''
+        items_per_page: null
   path:
     -
       alias: /blog
