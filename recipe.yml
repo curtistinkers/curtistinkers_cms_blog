@@ -9,6 +9,8 @@ install:
   - canvas_stark
   - ckeditor5
   - comment
+  - curtistinkers_theme
+  - cva
   - highlightjs_input_filter
   - linkit
   - media
@@ -39,11 +41,11 @@ config:
         - 'edit own comments'
         - 'post comments'
         - 'skip comment approval'
-        - 'view comments'
+        - 'access comments'
         - 'view media'
         - 'schedule publishing of nodes'
-        - 'schedule publishing of taxonomy terms'
-        - 'view scheduled contnt'
-        - 'view scheduled taxonomy terms'
+        - 'schedule publishing of taxonomy_term'
+        - 'view scheduled content'
+        - 'view scheduled taxonomy_term'
         - 'use text format comment_format'
 
