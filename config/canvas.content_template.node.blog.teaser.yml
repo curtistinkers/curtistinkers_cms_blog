@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - canvas.component.sdc.curtistinkers_theme.card-blog
     - core.entity_view_mode.node.teaser
     - field.field.media.image.field_media_image
     - field.field.node.blog.field_description
@@ -14,7 +13,6 @@ dependencies:
     - file
     - media
     - node
-    - options
     - user
 id: node.blog.teaser
 content_entity_type_id: node
