@@ -126,7 +126,20 @@ display:
       cache:
         type: tag
         options: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: true
+          content:
+            value: '<strong>Sorry, there are no blog posts available at this time.</strong>'
+            format: content_format
+          tokenize: false
       sorts:
         sticky:
           id: sticky
@@ -165,13 +178,42 @@ display:
           id: status
           table: node_field_data
           field: status
+          relationship: none
+          group_type: group
+          admin_label: ''
           entity_type: node
           entity_field: status
           plugin_id: boolean
+          operator: '='
           value: '1'
           group: 1
+          exposed: false
           expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
         type:
           id: type
           table: node_field_data
@@ -197,7 +239,18 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      header: {  }
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          empty: true
+          content: '<h1>All blog posts</h1>'
+          tokenize: false
       footer: {  }
       display_extenders: {  }
     cache_metadata:
@@ -209,13 +262,34 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  all_blog_posts_block:
+    id: all_blog_posts_block
+    display_title: 'All posts block'
+    display_plugin: block
+    position: 2
+    display_options:
+      defaults:
+        header: false
+      display_description: 'A list of all blog posts with a pager'
+      header: {  }
+      display_extenders: {  }
+      block_description: 'All blog posts'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   all_blog_posts_page:
     id: all_blog_posts_page
-    display_title: 'All posts'
+    display_title: 'All posts page'
     display_plugin: page
     position: 2
     display_options:
-      display_description: 'A paged list of all blog posts'
+      display_description: 'A list of all blog posts with a pager'
       display_extenders: {  }
       path: blog-test
       menu:
