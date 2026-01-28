@@ -8,14 +8,14 @@ label: 'Blog content'
 type: 'canonical_entities:node'
 pattern: '/blog/[node:created:html_year]/[node:created:custom:m]/[node:label]'
 selection_criteria:
-  6f06d980-4f5b-4707-bb13-f943d43ae01c:
+  a980a52e-864a-463b-9d6d-1a84e3cda5a0:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 6f06d980-4f5b-4707-bb13-f943d43ae01c
+    uuid: a980a52e-864a-463b-9d6d-1a84e3cda5a0
     context_mapping:
       node: node
     bundles:
       blog: blog
 selection_logic: and
-weight: 0
+weight: -5
 relationships: {  }
