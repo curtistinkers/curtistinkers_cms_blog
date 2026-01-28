@@ -20,12 +20,12 @@ config:
   actions:
     user.role.anonymous:
       grantPermissions:
-        - 'view comments'
+        - 'access comments'
         - 'view media'
     user.role.authenticated:
       grantPermissions:
         - 'post comments'
-        - 'view comments'
+        - 'access comments'
         - 'view media'
         - 'use text format comment_format'
     user.role.content_editor:
