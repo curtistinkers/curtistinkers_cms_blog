@@ -5,6 +5,8 @@ recipes:
   - drupal_cms_content_type_base
   - drupal_cms_media
 install:
+  - canvas
+  - canvas_stark
   - ckeditor5
   - comment
   - highlightjs_input_filter
