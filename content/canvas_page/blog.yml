@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: canvas_page
+  uuid: c06cae1e-bf82-4c13-9e9d-080d275421f5
+  default_langcode: en
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  owner:
+    -
+      target_id: 1
+  title:
+    -
+      value: Blog
+  description:
+    -
+      value: 'A complete list of all blog posts.'
+  components:
+    -
+      uuid: 9c27d6dd-602f-4294-8c9d-4da337b7a049
+      component_id: sdc.curtistinkers_theme.section
+      inputs:
+        width: 100%
+        columns: '100'
+        mobile_columns: '1'
+        margin_block_start: '48'
+        margin_block_end: '48'
+        padding_block_start: '0'
+        padding_block_end: '0'
+        section_header: true
+        section_footer: true
+    -
+      parent_uuid: 9c27d6dd-602f-4294-8c9d-4da337b7a049
+      slot: header_slot
+      uuid: 0769962b-e3af-406a-a941-e4ce04a8ff0b
+      component_id: sdc.curtistinkers_theme.heading
+      inputs:
+        heading_text: 'Blog posts'
+        level: 2
+        text_size: default
+        text_color: primary
+        align: left
+  path:
+    -
+      alias: /blog
+      langcode: en
+  revision_translation_affected:
+    -
+      value: true
