@@ -5,6 +5,8 @@ dependencies:
     - field.storage.node.field_featured_image
     - media.type.image
     - node.type.blog
+  module:
+    - media
 id: node.blog.field_featured_image
 field_name: field_featured_image
 entity_type: node

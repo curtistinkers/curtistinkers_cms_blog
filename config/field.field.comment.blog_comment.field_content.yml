@@ -6,6 +6,7 @@ dependencies:
     - field.storage.comment.field_content
     - filter.format.comment_format
   module:
+    - filter
     - text
 id: comment.blog_comment.field_content
 field_name: field_content
