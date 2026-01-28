@@ -5,11 +5,42 @@ recipes:
   - drupal_cms_content_type_base
   - drupal_cms_media
 install:
+  - ckeditor5
   - comment
   - highlightjs_input_filter
+  - linkit
+  - media
+  - node
+  - scheduler
+  - tagify
+  - ui_icons_menu
   - views_rss_core
   - views_rss_media
 config:
   actions:
+    user.role.anonymous:
+      grantPermission:
+        - 'view comments'
+        - 'view media'
     user.role.authenticated:
-      grantPermission: 'use text format comment_format'
+      grantPermission:
+        - 'post comments'
+        - 'view comments'
+        - 'view media'
+        - 'use text format comment_format'
+    user.role.content_editor:
+      grantPermission:
+        - 'create blog content'
+        - 'delete own blog content'
+        - 'edit own blog content'
+        - 'edit own comments'
+        - 'post comments'
+        - 'skip comment approval'
+        - 'view comments'
+        - 'view media'
+        - 'schedule publishing of nodes'
+        - 'schedule publishing of taxonomy terms'
+        - 'view scheduled contnt'
+        - 'view scheduled taxonomy terms'
+        - 'use text format comment_format'
+
