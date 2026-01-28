@@ -1,0 +1,23 @@
+uuid: 7eee73a8-f4e2-4459-ac45-f3ae2d194514
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bibliography
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_bibliography
+field_name: field_bibliography
+entity_type: node
+bundle: blog
+label: Bibliography
+description: 'List all sources consulted during research, whether they were directly cited in the text or not.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
