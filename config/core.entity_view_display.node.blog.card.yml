@@ -11,7 +11,7 @@ dependencies:
     - field.field.node.blog.field_tags
     - node.type.blog
   module:
-    - text
+    - layout_builder
     - user
 third_party_settings:
   layout_builder:
@@ -22,8 +22,8 @@ targetEntityType: node
 bundle: blog
 mode: card
 content:
-  field_content:
-    type: text_default
+  field_description:
+    type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
@@ -49,5 +49,5 @@ content:
 hidden:
   field_bibliography: true
   field_comments: true
-  field_description: true
+  field_content: true
   links: true
