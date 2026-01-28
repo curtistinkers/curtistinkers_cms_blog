@@ -1,8 +1,10 @@
+uuid: 356eed4f-2288-47f8-b7ef-d3d8d119092a
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.card
+    - core.entity_view_mode.node.teaser
     - node.type.blog
     - system.menu.main
   module:
@@ -229,7 +231,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: card
+          view_mode: teaser
       query:
         type: views_query
         options:
@@ -416,8 +418,18 @@ display:
         operator: AND
         groups:
           1: AND
+      style:
+        type: default
+        options: {  }
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: card
       defaults:
         pager: false
+        style: false
+        row: false
         sorts: true
         filters: false
         filter_groups: false
