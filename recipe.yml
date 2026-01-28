@@ -10,6 +10,7 @@ install:
   - highlightjs_input_filter
   - linkit
   - media
+  - menu_link_content
   - node
   - scheduler
   - tagify
