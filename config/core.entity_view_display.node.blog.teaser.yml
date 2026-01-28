@@ -17,10 +17,10 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-id: node.blog.card
+id: node.blog.teaser
 targetEntityType: node
 bundle: blog
-mode: card
+mode: teaser
 content:
   field_description:
     type: basic_string

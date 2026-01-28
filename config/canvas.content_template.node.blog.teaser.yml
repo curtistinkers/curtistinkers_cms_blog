@@ -16,10 +16,10 @@ dependencies:
     - node
     - options
     - user
-id: node.blog.card
+id: node.blog.teaser
 content_entity_type_id: node
 content_entity_type_bundle: blog
-content_entity_type_view_mode: card
+content_entity_type_view_mode: teaser
 component_tree:
   -
     uuid: 77f02dca-b1a0-4dcb-b822-5085a32afb30
