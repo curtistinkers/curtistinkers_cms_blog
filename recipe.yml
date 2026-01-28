@@ -19,17 +19,17 @@ install:
 config:
   actions:
     user.role.anonymous:
-      grantPermission:
+      grantPermissions:
         - 'view comments'
         - 'view media'
     user.role.authenticated:
-      grantPermission:
+      grantPermissions:
         - 'post comments'
         - 'view comments'
         - 'view media'
         - 'use text format comment_format'
     user.role.content_editor:
-      grantPermission:
+      grantPermissions:
         - 'create blog content'
         - 'delete own blog content'
         - 'edit own blog content'
