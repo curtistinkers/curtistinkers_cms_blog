@@ -4,6 +4,7 @@ type: Curtis Tinkers CMS
 recipes:
   - drupal_cms_content_type_base
   - drupal_cms_media
+  # - drupal_cms_seo_tools
 install:
   - canvas
   - canvas_stark
@@ -13,6 +14,7 @@ install:
   - cva
   - highlightjs_input_filter
   - linkit
+  - maxlength
   - media
   - menu_link_content
   - node

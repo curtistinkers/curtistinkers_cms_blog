@@ -10,8 +10,12 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "drupal/drupal_cms_content_type_base": "^2",
+        "drupal/drupal_cms_media": "^2",
+        "drupal/drupal_cms_seo_tools": "^2",
         "drupal/highlightjs_input_filter": "^1.1",
         "drupal/linkit": "^7.0",
+        "drupal/maxlength":"^3.1",
         "drupal/scheduler":"^2.2",
         "drupal/tagify": "^1.2",
         "drupal/ui_icons": "^1.1",
