@@ -27,14 +27,14 @@ component_tree:
     uuid: 1eb89754-833a-453e-9202-e4cd657b0128
     component_id: sdc.curtistinkers_theme.hero-billboard
     component_version: 7e607612210205a6
-    inputs: '{"height":"large","flex_position":"center-left","overlay_opacity":"75%","object_position":"center","media":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dfield_featured_image\u241e\u241fentity\u241c\u241centity:media:image\u241dfield_media_image\u241e\u241f{src\u21a0src_with_alternate_widths,alt\u21a0alt,width\u21a0width,height\u21a0height}"}}'
+    inputs: '{"height":"jumbo","flex_position":"center-left","overlay_opacity":"75%","object_position":"center","media":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dfield_featured_image\u241e\u241fentity\u241c\u241centity:media:image\u241dfield_media_image\u241e\u241f{src\u21a0src_with_alternate_widths,alt\u21a0alt,width\u21a0width,height\u21a0height}"}}'
   '0:hero_slot:0':
     parent_uuid: 1eb89754-833a-453e-9202-e4cd657b0128
     slot: hero_slot
     uuid: 307c367b-02a2-441e-88d1-7462b3d198ab
     component_id: sdc.curtistinkers_theme.heading
     component_version: 97c1cd91b49b80b1
-    inputs: '{"heading_text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dtitle\u241e\u241fvalue"},"level":2,"text_size":"default","text_color":"inverted","align":"left"}'
+    inputs: '{"heading_text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dtitle\u241e\u241fvalue"},"level":2,"text_size":"default","text_color":"primary-inverted","align":"left"}'
   '0:hero_slot:1':
     parent_uuid: 1eb89754-833a-453e-9202-e4cd657b0128
     slot: hero_slot
@@ -48,5 +48,5 @@ component_tree:
     uuid: 6e0122aa-a311-4736-91c6-6085c6974d6a
     component_id: sdc.curtistinkers_theme.button
     component_version: 800fe79120cc9130
-    inputs: '{"variant":"secondary-inverted","size":"large","icon":"arrow-right","mobile_width":false,"icon_first":false,"disabled":false,"href":{"sourceType":"host-entity-url","absolute":false},"label":"Read this latest post"}'
+    inputs: '{"variant":"secondary-inverted","size":"large","icon":"arrow-right","mobile_width":false,"icon_first":false,"disabled":false,"href":{"sourceType":"host-entity-url","absolute":false},"label":"Read this post"}'
 exposed_slots: {  }
