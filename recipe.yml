@@ -25,9 +25,6 @@ install:
   - views_rss_core
   - views_rss_media
 config:
-  import:
-    views_rss:
-      - core.date_format.rfc822
   actions:
     user.role.anonymous:
       grantPermissions:
