@@ -14,8 +14,6 @@ dependencies:
     - node
     - user
     - views_rss
-_core:
-  default_config_hash: OpvBvKPThOSE94ynwCFz1qhr-Ka9LvGfrfoh2Yg_jCM
 id: blog
 label: 'Blog post content'
 module: views
