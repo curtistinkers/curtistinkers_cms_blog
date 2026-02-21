@@ -24,7 +24,7 @@
         }
     },
     "require": {
-        "curtistinkers/curtistinkers_cms_media": "^2",
+        "curtistinkers/curtistinkers_cms_media": "dev-main",
 
         "drupal/drupal_cms_content_type_base": "^2",
         "drupal/drupal_cms_seo_tools": "^2",
