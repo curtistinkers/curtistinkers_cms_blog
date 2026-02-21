@@ -1,6 +1,6 @@
 {
     "name": "curtistinkers/curtistinkers_cms_blog",
-    "description": "Drupal recipe for a Blog post content type",
+    "description": "Drupal recipe for a Blog post content type.",
     "type": "drupal-recipe",
     "license": ["GPL-2.0-or-later"],
     "authors": [
