@@ -2,8 +2,8 @@ name: Blog
 description: Provides blog entity.
 type: Curtis Tinkers CMS
 recipes:
+  - curtistinkers_cms_media
   - drupal_cms_content_type_base
-  - drupal_cms_media
   # - drupal_cms_seo_tools
 install:
   - canvas
