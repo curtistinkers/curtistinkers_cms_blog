@@ -5,14 +5,30 @@
     "authors": [
         {
             "name": "curtistinkers",
-            "email": "curtistinkers.commit@gmail.com"
+            "homepage": "https://curtistinkers.com",
+            "role": "Creator"
         }
     ],
-    "minimum-stability": "dev",
+    "keywords": [
+        "drupal", "drupal-cms", "drupal-recipe", "curtistinkers-cms"
+    ],
+    "support": {
+        "source": "https://github.com/curtistinkers/curtistinkers_cms_blog",
+        "issues": "https://github.com/curtistinkers/curtistinkers_cms_blog/issues"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8",
+            "only": ["drupal-module/*, drupal-theme/*, drupal-recipe/*, drupal-profile/*"]
+        }
+    },
     "require": {
+        "drupal/curtistinkers_cms_media": "^2",
+
         "drupal/drupal_cms_content_type_base": "^2",
-        "drupal/drupal_cms_media": "^2",
         "drupal/drupal_cms_seo_tools": "^2",
+
         "drupal/highlightjs_input_filter": "^1.1",
         "drupal/linkit": "^7.0",
         "drupal/maxlength":"^3.1",
