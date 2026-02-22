@@ -3,16 +3,13 @@ description: Provides blog entity.
 type: Curtis Tinkers CMS
 recipes:
   - curtistinkers_cms_media
+  - curtistinkers_cms_theme_components
   - drupal_cms_content_type_base
-  # - drupal_cms_seo_tools
+  - drupal_cms_seo_tools
 install:
-  - canvas
-  - canvas_stark
   - ckeditor5
   - comment
   - content_moderation
-  - curtistinkers_theme
-  - cva
   - highlightjs_input_filter
   - linkit
   - maxlength
@@ -27,7 +24,15 @@ install:
   - views_rss_core
   - views_rss_media
 config:
+  # strict:
+  #   - field.storage.comment.field_content
+  #   - field.storage.node.field_bibliography
+  #   - field.storage.node.field_comments
   actions:
+    highlightjs_input_filter.settings:
+      simpleConfigUpdate:
+        enable_copy_button: true
+        theme: a11y-dark
     user.role.anonymous:
       grantPermissions:
         - 'access comments'
