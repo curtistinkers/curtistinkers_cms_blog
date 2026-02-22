@@ -24,6 +24,6 @@ component_tree:
   -
     uuid: 77f02dca-b1a0-4dcb-b822-5085a32afb30
     component_id: sdc.curtistinkers_theme.card-blog
-    component_version: 89227f395d0c2b7a
+    component_version: 89352683432be8e4
     inputs: '{"style":"framed","orientation":"horizontal","heading_text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dtitle\u241e\u241fvalue"},"heading_level":2,"heading_size":"default","date":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dcreated\u241e\u241fvalue"},"date_format":"j F Y","author":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241duid\u241e\u241fentity\u241c\u241centity:user\u241dname\u241e\u241fvalue"},"media":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dfield_featured_image\u241e\u241fentity\u241c\u241centity:media:image\u241dfield_media_image\u241e\u241f{src\u21a0src_with_alternate_widths,alt\u21a0alt,width\u21a0width,height\u21a0height}"},"text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dfield_description\u241e\u241fvalue"},"is_text_centered":false,"url":{"sourceType":"host-entity-url","absolute":true},"background":"primary-inverted"}'
 exposed_slots: {  }

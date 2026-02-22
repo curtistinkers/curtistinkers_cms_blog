@@ -26,27 +26,27 @@ component_tree:
   0:
     uuid: 9fe32a02-0b9a-4e74-ad0c-4ba772e5964f
     component_id: sdc.curtistinkers_theme.hero-billboard
-    component_version: b2adb68eaef69739
+    component_version: 555fcd5cf7c0a5f3
     inputs: '{"height":"jumbo","flex_position":"center-left","overlay_opacity":"90%","object_position":"center","media":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dfield_featured_image\u241e\u241fentity\u241c\u241centity:media:image\u241dfield_media_image\u241e\u241f{src\u21a0src_with_alternate_widths,alt\u21a0alt,width\u21a0width,height\u21a0height}"},"overlay_color":"primary"}'
   '0:hero_slot:0':
     parent_uuid: 9fe32a02-0b9a-4e74-ad0c-4ba772e5964f
     slot: hero_slot
     uuid: 307c367b-02a2-441e-88d1-7462b3d198ab
     component_id: sdc.curtistinkers_theme.heading
-    component_version: 97c1cd91b49b80b1
+    component_version: 2d5eef0906da80c2
     inputs: '{"heading_text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dtitle\u241e\u241fvalue"},"level":2,"text_size":"default","text_color":"inverted","align":"left","url":{"sourceType":"host-entity-url","absolute":false}}'
   '0:hero_slot:1':
     parent_uuid: 9fe32a02-0b9a-4e74-ad0c-4ba772e5964f
     slot: hero_slot
     uuid: 7897c185-324f-4d73-b2a0-3a31bf099ec6
     component_id: sdc.curtistinkers_theme.text
-    component_version: 79e4aebc9043f1ca
+    component_version: 3bb3bf1d7e5bdbc1
     inputs: '{"text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:blog\u241dfield_description\u241e\u241fvalue"},"text_size":"normal","text_color":"inverted","text_font_type":"serif"}'
   '0:hero_slot:2':
     parent_uuid: 9fe32a02-0b9a-4e74-ad0c-4ba772e5964f
     slot: hero_slot
     uuid: 6e0122aa-a311-4736-91c6-6085c6974d6a
     component_id: sdc.curtistinkers_theme.button
-    component_version: 800fe79120cc9130
+    component_version: 7c13c2329a53498d
     inputs: '{"variant":"primary-inverted","size":"large","icon":"arrow-right","mobile_width":false,"icon_first":false,"disabled":false,"href":{"sourceType":"host-entity-url","absolute":false},"label":"Read the latest post"}'
 exposed_slots: {  }
