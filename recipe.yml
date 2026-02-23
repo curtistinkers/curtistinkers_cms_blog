@@ -2,6 +2,7 @@ name: Blog
 description: Provides blog entity.
 type: Curtis Tinkers CMS
 recipes:
+  - core/recipes/content_editor_role
   - curtistinkers_cms_comment
   - curtistinkers_cms_media
   - curtistinkers_cms_theme_components
@@ -26,7 +27,6 @@ install:
   - views_rss_media
 config:
   # strict:
-  #   - field.storage.comment.field_content
   #   - field.storage.node.field_bibliography
   #   - field.storage.node.field_comments
   actions:
