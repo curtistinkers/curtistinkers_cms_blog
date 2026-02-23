@@ -50,3 +50,6 @@ config:
         - 'schedule publishing of taxonomy_term'
         - 'view scheduled content'
         - 'view scheduled taxonomy_term'
+    workflows.workflow.basic_editorial:
+      addNodeTypes:
+        - blog
