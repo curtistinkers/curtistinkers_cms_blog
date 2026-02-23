@@ -155,7 +155,7 @@ display:
           empty: true
           content:
             value: '<strong>Sorry, there are no blog posts available at this time.</strong>'
-            format: content_format
+            format: blog_content_format
           tokenize: false
       sorts:
         sticky:
