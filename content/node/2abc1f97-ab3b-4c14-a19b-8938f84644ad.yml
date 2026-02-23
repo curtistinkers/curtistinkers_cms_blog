@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2abc1f97-ab3b-4c14-a19b-8938f84644ad
+  bundle: blog
+  default_langcode: en
+  depends:
+    9f3737d3-2019-436e-ace3-66d969c418d1: media
+    51de0db2-4efb-43d3-a131-eca4d3b8afdd: taxonomy_term
+    9eafd109-ab63-4b9b-bfb4-7f0ff59b63ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The majesty of a farmhouse in the woods'
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /blog/2024/08/majesty-farmhouse-woods
+      langcode: en
+  publish_state:
+    -
+      value: _none
+  unpublish_state:
+    -
+      value: _none
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1771873941
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_content:
+    -
+      value: "<p>There's something deeply magical about a farmhouse in the woods, a place where the tidy rows of a traditional farm give way to wild, whispering trees, and the boundary between cultivated life and untamed nature blurs into something beautifully uncertain.</p><h2>Arrival and First Impressions</h2><p>Tucked down a narrow gravel lane that eventually surrenders to dirt and pine needles, the farmhouse appears almost as if the forest itself decided to grow a house. The metal roof catches the weak winter sun or glows copper-orange under autumn maples.</p><h2>The Welcoming Porch</h2><p>A wide front porch wraps around two sides, its posts hand-hewn and slightly crooked, supporting a swing that creaks softly even when no one's sitting in it.</p><p>Step onto that porch at dusk and the world changes. The last light filters through layers of branches, turning everything golden and diffused. You can hear the small creek half a mile downslope — not loud, just persistent — and the occasional barred owl asking its eternal question: *Who cooks for you?* A couple of rocking chairs wait with faded cushions; a small side table holds whatever book or mug of tea got left behind last time someone sat here watching the day end.</p><h2>Inside the Heart of the Home</h2><p>Inside, the house feels like it's been holding its breath for decades. Wide pine floorboards, worn to a satin finish by generations of sock feet, stretch beneath a low ceiling crossed with hand-adzed beams.</p><p>The stone fireplace dominates the main room — big enough to take four-foot logs and built from field stones gathered when the land was first cleared. On cold evenings the fire snaps and pops, sending sparks racing up the chimney while the scent of burning oak fills every corner. A deep leather armchair sits close enough to feel the heat on your shins; a wool throw is always within reach.</p><h2>The Honest Kitchen</h2><p>The kitchen is small but honest: a farmhouse sink under a window that looks straight into hemlocks, open shelves lined with mason jars of beans and grains, an old cast-iron range that still bakes the best cornbread you've ever tasted.</p><p>No granite counters or pendant lights — just butcher block scarred from decades of chopping onions, and a coffee pot that gurgles like an old friend every morning.</p><h2>Upstairs Retreats</h2><p>Upstairs the bedrooms are simple. Slanted ceilings follow the roofline, dormer windows poke out like curious eyes, and every mattress seems to have been chosen for how deeply it lets you sink.</p><p>At night the house makes small settling sounds — timbers contracting, floorboards sighing — while outside the woods answer with rustling leaves and the soft footfalls of deer passing close to the foundation.</p><h2>The True Appeal</h2><p>What draws people to a place like this isn't usually the convenience. Cell service fades about a mile back down the road. The nearest grocery store is thirty minutes away on winding pavement. Winter can mean days without plowed access, and summer brings mosquitoes that could carry off small children.</p><p>Yet the trade-offs feel trivial when you step outside at dawn and see mist rising between the trunks like smoke from a hundred hidden campfires, or when you realize the only schedule that matters is the one written by the sun and the seasons.</p><p>A farmhouse in the woods isn't really about farming anymore — at least not in the commercial sense. It's about a slower rhythm: splitting wood because you want to, not because you have to; planting garlic in October because the moon is right; sitting on the porch long after dark because the stars are showing off and there's nowhere else you need to be.</p><h2>A Quiet Rebellion</h2><p>In a world that keeps getting louder and faster, these houses stand as quiet rebellion. They remind us that shelter can be more than four walls and a roof — it can be a conversation between human hands and ancient trees, between the life we choose and the one the forest has been living for centuries.</p><p>And every once in a while, when the wind is just right and the fire is down to embers, you can almost believe the house is content to have you there — a temporary guest in a much older story.</p>"
+      format: blog_content_format
+  field_description:
+    -
+      value: "There's something deeply magical about a farmhouse in the woods, a place where the tidy rows of a traditional farm give way to wild, whispering trees, and the boundary between cultivated life and untamed nature blurs into something beautifully uncertain."
+  field_featured_image:
+    -
+      entity: 9f3737d3-2019-436e-ace3-66d969c418d1
+  field_seo_analysis:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''
+  field_tags:
+    -
+      entity: 51de0db2-4efb-43d3-a131-eca4d3b8afdd
+    -
+      entity: 9eafd109-ab63-4b9b-bfb4-7f0ff59b63ef

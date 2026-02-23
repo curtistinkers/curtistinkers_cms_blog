@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 381c4622-1cba-4525-9d65-cea96195acca
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Leonardo_da_Vinci-Annunciazione.jpg
+  uri:
+    -
+      value: 'public://2026-02/Leonardo_da_Vinci-Annunciazione.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7886923
+  status:
+    -
+      value: true

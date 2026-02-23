@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9d4e538b-250d-46d1-a180-bbac063cea34
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Cardinal.jpg
+  uri:
+    -
+      value: 'public://2026-02/Cardinal.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 789837
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3c4bd6a2-bbd1-4e34-9314-2dee8e3e9116
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: farmhouse-in-the-woods.jpg
+  uri:
+    -
+      value: 'public://2026-02/farmhouse-in-the-woods.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 481279
+  status:
+    -
+      value: true

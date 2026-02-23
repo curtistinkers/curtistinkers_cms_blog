@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 35d8292b-b668-4f28-9533-6ea19523238c
+  bundle: blog
+  default_langcode: en
+  depends:
+    51c1d8c5-e308-4f93-ae76-5b5cb0c81f74: media
+    b3776a08-0d4e-4666-b22d-fb5de0d82156: taxonomy_term
+    53bacd84-f654-4c6e-9ff1-9af60e5b006d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Fixed title and headings to reflect site style. Added link'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Northern Cardinal: America's most iconic red bird"
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /blog/2023/01/northern-cardinal-iconic-american-bird
+      langcode: en
+  publish_state:
+    -
+      value: _none
+  unpublish_state:
+    -
+      value: _none
+  field_bibliography:
+    -
+      uri: 'https://www.audubon.org/field-guide/bird/northern-cardinal'
+      title: 'Northern Cardinal | Audubon Field Guide'
+      options:
+        href: 'https://www.audubon.org/field-guide/bird/northern-cardinal'
+        data-entity-type: ''
+        data-entity-uuid: ''
+        data-entity-substitution: ''
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1771835382
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_content:
+    -
+      value: '<p>Few sights in nature deliver an instant burst of joy like a flash of brilliant red against green leaves or fresh snow. That vivid splash is almost always the Northern Cardinal (<em>Cardinalis cardinalis</em>), the bird most people simply call "the red bird". With its unmistakable crest, bold black mask, and fiery plumage, the male cardinal is one of the most recognizable and beloved backyard birds across North America.</p><h2>A flash of color year-round</h2><p>Unlike many songbirds that migrate or fade into duller tones in winter, Northern Cardinals stay put and stay bright. Males wear that famous all-over red coat derived from carotenoid pigments in their diet, paired with a dramatic black "mask" around the eyes and a vivid orange-red bill. The crest gives them a regal, almost punk-rock silhouette.</p><p>Females are no less beautiful, though more subtle: warm brown with reddish tinges on the wings, tail, and crest, plus the same sharp crest and orange bill. Both sexes sport that distinctive pointed crest, making them easy to identify even at a distance.</p><h2>Surprising cardinal behaviors</h2><p>Cardinals are full of personality. Males are fiercely territorial and it''s common to see one repeatedly attacking its own reflection in windows or car mirrors during breeding season, convinced another male is invading his space.</p><p>One of the coolest facts? Females sing too. While most female songbirds stay silent, female cardinals belt out songs, often from the nest, possibly to signal their mate when to bring food. Pairs frequently sing duets, strengthening their lifelong bond; cardinals are mostly monogamous and mate for life.</p><p>Their whistled song is a clear, cheerful <em>cheer cheer cheer</em> or <em>birdie birdie birdie</em>, one of the first sounds many people associate with spring. In winter, that same song against a snowy backdrop feels especially uplifting.</p><h2>Cultural and symbolic meaning</h2><p>The cardinal''s striking red color has made it a powerful symbol in many cultures. In some Native American traditions (particularly southeastern tribes like the Cherokee), cardinals are linked to the sun and viewed as good omens or messengers. Many people today interpret a cardinal sighting as a visit from a departed loved one, a comforting sign that they''re still near.</p><p>In broader American folklore, the bird represents vitality, hope, renewal, and good fortune. Its bright presence in winter scenes has cemented its place on countless holiday cards and decorations. Seven U.S. states have even named it their official state bird.</p><h2>Bringing cardinals to your yard</h2><p>If you''d like more red-bird visits, make your space welcoming: offer black oil sunflower seeds, safflower, or cracked corn (cardinals love foraging on or near the ground). Dense shrubs and bushes provide cover and nesting spots, while berry-producing plants like dogwood or serviceberry add natural food.</p><p>Next time you spot that crimson flash in your yard or along a winter trail, take a moment to appreciate it. In a world that can feel gray, the Northern Cardinal reminds us that beauty, loyalty, and a splash of bold color can persist through any season.</p>'
+      format: blog_content_format
+  field_description:
+    -
+      value: 'Few sights in nature deliver an instant burst of joy like a flash of brilliant red against green leaves or fresh snow. That vivid splash is almost always the Northern Cardinal (Cardinalis cardinalis), the bird most people simply call "the red bird".'
+  field_featured_image:
+    -
+      entity: 51c1d8c5-e308-4f93-ae76-5b5cb0c81f74
+  field_seo_analysis:
+    -
+      status: '8.6'
+      focus_keyword: Cardinal
+      title: ''
+      description: ''
+  field_tags:
+    -
+      entity: b3776a08-0d4e-4666-b22d-fb5de0d82156
+    -
+      entity: 53bacd84-f654-4c6e-9ff1-9af60e5b006d

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9f3737d3-2019-436e-ace3-66d969c418d1
+  bundle: image
+  default_langcode: en
+  depends:
+    3c4bd6a2-bbd1-4e34-9314-2dee8e3e9116: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Farmhouse in the woods'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_file_size:
+    -
+      value: 481279
+  field_image_height:
+    -
+      value: 768
+  field_image_width:
+    -
+      value: 1360
+  field_media_image:
+    -
+      alt: 'A serene scene of a well-lit farmhouse in the woods'
+      title: ''
+      width: 1360
+      height: 768
+      entity: 3c4bd6a2-bbd1-4e34-9314-2dee8e3e9116
+  field_mime_type:
+    -
+      value: image/jpeg

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f5aad847-b3f8-412c-84f8-184e714393c9
+  bundle: image
+  default_langcode: en
+  depends:
+    381c4622-1cba-4525-9d65-cea96195acca: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Annunciation by Leonardo da Vinci'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_file_size:
+    -
+      value: 7886923
+  field_image_height:
+    -
+      value: 1840
+  field_image_width:
+    -
+      value: 4057
+  field_media_image:
+    -
+      alt: 'The Annunciation (c. 1472–1476) painting by Leonardo da Vinci'
+      title: ''
+      width: 4057
+      height: 1840
+      entity: 381c4622-1cba-4525-9d65-cea96195acca
+  field_mime_type:
+    -
+      value: image/jpeg

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 83d5c2ee-e6a5-4378-a979-ee162ef26bb7
+  bundle: image
+  default_langcode: en
+  depends:
+    d454625c-69fb-4963-8083-c8ae483e8d1f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Woman with a glass of wine'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_file_size:
+    -
+      value: 3064782
+  field_image_height:
+    -
+      value: 3840
+  field_image_width:
+    -
+      value: 5760
+  field_media_image:
+    -
+      alt: 'A woman holding up a glass of red wine'
+      title: ''
+      width: 5760
+      height: 3840
+      entity: d454625c-69fb-4963-8083-c8ae483e8d1f
+  field_mime_type:
+    -
+      value: image/jpeg

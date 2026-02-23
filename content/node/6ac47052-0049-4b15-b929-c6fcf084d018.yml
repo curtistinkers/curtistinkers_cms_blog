@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6ac47052-0049-4b15-b929-c6fcf084d018
+  bundle: blog
+  default_langcode: en
+  depends:
+    f5aad847-b3f8-412c-84f8-184e714393c9: media
+    d2dfce30-1970-4e60-a5d8-e0e1aa43486b: taxonomy_term
+    ddb96dd9-0a3e-4f58-a6ea-60077b79f0d8: taxonomy_term
+    20d2e75e-e6b7-42d4-888a-66fd2fffb9d1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Added tags'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Leonardo da Vinci: the ultimate Renaissance man'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /blog/2026/02/leonardo-da-vinci-ultimate-renaissance-man
+      langcode: en
+  publish_state:
+    -
+      value: _none
+  unpublish_state:
+    -
+      value: _none
+  field_bibliography:
+    -
+      uri: 'https://en.wikipedia.org/wiki/List_of_works_by_Leonardo_da_Vinci'
+      title: 'List of works by Leonardo da Vinci - Wikipedia'
+      options:
+        href: 'https://en.wikipedia.org/wiki/List_of_works_by_Leonardo_da_Vinci'
+        data-entity-type: ''
+        data-entity-uuid: ''
+        data-entity-substitution: ''
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1771876602
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_content:
+    -
+      value: "<p>Leonardo da Vinci (1452–1519) stands as one of the most extraordinary individuals in human history. Painter, inventor, scientist, anatomist, engineer, and visionary – he embodied the ideal of the \"Renaissance man\". A polymath whose curiosity knew no bounds, <a href=\"https://en.wikipedia.org/wiki/List_of_works_by_Leonardo_da_Vinci\">his contributions span art, science, and technology</a>, influencing countless generations.</p><h2>Early Life and Training</h2><p>Born on April 15, 1452, in the small Tuscan town of Vinci (hence his surname), Leonardo was the illegitimate son of a notary and a peasant woman.</p><h3>Apprenticeship in Florence</h3><p>At around age 14, he became an apprentice in the workshop of Andrea del Verrocchio, one of Florence's leading artists. There he learned painting, sculpture, mechanics, and the goldsmith's craft.</p><p>Verrocchio's influence was profound: Leonardo assisted on major works and quickly surpassed his master in skill. One famous story claims that when Leonardo painted an angel in Verrocchio's <strong>Baptism of Christ</strong>, the master was so impressed he never painted again.</p><h2>Artistic Masterpieces</h2><p>Leonardo's artistic output was relatively small, only about 15 paintings are definitively attributed to him, but each is iconic.</p><h3>The Mona Lisa</h3><p>Perhaps the world's most famous painting, the <strong>Mona Lisa</strong> (c. 1503–1519) captivates with its enigmatic smile, atmospheric sfumato technique, and masterful use of light and shadow.</p><p>Housed in the Louvre since the 18th century, it draws millions of visitors annually and remains a symbol of artistic perfection.</p><h3>The Last Supper</h3><p>Painted between 1495 and 1498 on the wall of a refectory in Milan, <strong>The Last Supper</strong> revolutionized perspective and emotional expression in art.</p><p>Leonardo's innovative (but ultimately flawed) experimental technique caused the work to deteriorate quickly, yet its composition with Christ at the center and the apostles in dynamic groups continues to influence artists and filmmakers.</p><h2>Scientific and Anatomical Studies</h2><p>Leonardo's notebooks reveal a mind centuries ahead of its time. He filled thousands of pages with mirror writing, sketches, and observations.</p><h3>Anatomy and Dissections</h3><p>He performed secret human dissections (illegal at the time) to understand the body. His drawings of muscles, bones, the heart, and even a fetus in the womb are astonishingly accurate.</p><p>These studies prefigured modern anatomy and showed his belief that art and science were interconnected.</p><h3>Inventions and Engineering Concepts</h3><p>Leonardo sketched designs for machines that included:</p><ul><li data-list-item-id=\"e6a3715db5440b4ba815e40b138f735b2\">Flying machines (ornithopters and a helicopter-like aerial screw)</li><li data-list-item-id=\"e08995e96297cb4896213a72857802fce\">Military devices (tanks, giant crossbows, diving suits)</li><li data-list-item-id=\"ecfc69e7517bff0a0d59bbb51e02cca73\">Civil engineering (canals, bridges, hydraulic systems)</li></ul><p>While few were built during his lifetime, many concepts proved feasible when recreated centuries later.</p><h2>Later Years and Legacy</h2><p>Leonardo spent his final years in France, invited by King Francis I. He died on May 2, 1519, at Château du Clos Lucé.</p><h3>The Notebooks and Codices</h3><p>His private journals included thousands of pages that were scattered after his death but later reassembled. The Codex Leicester (owned by Bill Gates) and others reveal his thoughts on everything from astronomy to hydraulics.</p><h3>Enduring Influence</h3><p>Leonardo's work bridged the medieval and modern worlds. He inspired the scientific method, influenced art movements from Mannerism to Impressionism, and continues to symbolize human potential.</p><p>Today, he remains a cultural icon. His name evokes genius, curiosity, and the limitless possibilities of the human mind.</p><p>In an age of specialization, Leonardo da Vinci reminds us what one person can achieve with relentless curiosity and interdisciplinary thinking. His legacy isn't just in museums or history books, it's in the very idea that we can always learn more, create more, and wonder more.</p><p>What's your favourite fact about Leonard da Vinci? Let us know in the comments below!</p>"
+      format: blog_content_format
+  field_description:
+    -
+      value: 'Leonardo da Vinci (1452–1519) stands as one of the most extraordinary individuals in human history. Painter, inventor, scientist, anatomist, engineer, and visionary – he embodied the ideal of the "Renaissance man". A polymath whose curiosity knew no bounds, his contributions span art, science, and technology, influencing countless generations.'
+  field_featured_image:
+    -
+      entity: f5aad847-b3f8-412c-84f8-184e714393c9
+  field_seo_analysis:
+    -
+      status: '3.1'
+      focus_keyword: 'Leonardo da Vinci'
+      title: ''
+      description: ''
+  field_seo_title:
+    -
+      value: 'Da Vinci: the ultimate Renaissance man'
+  field_tags:
+    -
+      entity: d2dfce30-1970-4e60-a5d8-e0e1aa43486b
+    -
+      entity: ddb96dd9-0a3e-4f58-a6ea-60077b79f0d8
+    -
+      entity: 20d2e75e-e6b7-42d4-888a-66fd2fffb9d1

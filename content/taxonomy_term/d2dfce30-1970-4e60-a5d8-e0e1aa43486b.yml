@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d2dfce30-1970-4e60-a5d8-e0e1aa43486b
+  bundle: tags
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Art history'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /tag/art-history
+      langcode: en

@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5aa7c42-559b-4bec-a798-3b415b03bf4d
+  bundle: blog
+  default_langcode: en
+  depends:
+    83d5c2ee-e6a5-4378-a979-ee162ef26bb7: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nothing like a fine glass of wine'
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /blog/2023/04/nothing-fine-glass-wine
+      langcode: en
+  publish_state:
+    -
+      value: _none
+  unpublish_state:
+    -
+      value: _none
+  field_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1771875455
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_content:
+    -
+      value: "<p>There's something almost ceremonial about holding a fine glass of wine. The moment the stem rests between your fingers, the bowl catches the light just so, and the liquid inside begins its slow, hypnotic dance; that's when the ordinary transforms into something transcendent.</p><h2>The Visual Invitation</h2><p>Picture this: a deep garnet-red wine poured into a perfectly shaped crystal glass, its surface shimmering like stained glass in candlelight. As you tilt the glass, slow rivers of legs trail down the inside, evidence of its richness and higher alcohol content. The color shifts from ruby at the center to a glowing brick-orange at the rim, hinting at age, patience, and a story told over years in oak and bottle.</p><h2>The Aromatic Unveiling</h2><p>Now bring it to your nose. Before the first sip, the aroma unfolds like a quiet invitation. Swirl gently and inhale. A wave of black cherry and ripe plum rises first, followed by subtler whispers: a touch of violet and dried rose petals, then the warmer notes of baking spice, vanilla pod from the oak, and perhaps a faint wisp of smoky graphite or truffle earthiness. It's layered, complex, never one-dimensional. Each sniff reveals something new, like turning pages in a well-loved book.</p><h2>The Palate's Journey</h2><p>Then comes the sip. The wine meets your palate with velvet confidence. It feels full-bodied yet poised. The tannins are present but polished, like fine suede rather than rough leather, gripping the sides of your tongue just enough to promise structure without aggression. Acidity lifts everything, keeping the experience bright and alive, preventing any sense of cloying sweetness.</p><p>Flavors cascade across the tongue: that dark fruit core expands into blackberry compote and cassis, laced with dark chocolate and a hint of espresso. Mid-palate brings nuance before the wine stretches into a long, graceful finish. The flavors linger for thirty seconds, forty, even longer, evolving from fruit to spice to something almost mineral, clean and resonant, inviting another sip to chase the echo.</p><h2>The Ritual That Makes It Magic</h2><p>What makes this moment special isn't just the chemistry of grape, soil, and season. It's the quiet ritual: choosing the right glass (a generous bowl for reds to let aromas bloom), serving at the proper temperature (around 15–18 °C for most fine reds), perhaps decanting if the wine is young and tight. It's the company—whether alone in contemplation or shared across a table—and the way time slows as conversation deepens with each glass.</p><h2>A Moment to Savor</h2><p>In a world of constant hurry, a fine glass of wine reminds us to pause. To look, to smell, to taste deliberately. To savor.</p><p>The next time you pour one, take a moment. Let the glass become more than a vessel. Let it become a small portal to patience, place, and pure sensory pleasure.</p><p>What was the last truly memorable glass you had? I'd love to hear about it in the comments.</p>"
+      format: blog_content_format
+  field_description:
+    -
+      value: "There's something almost ceremonial about holding a fine glass of wine. The moment the stem rests between your fingers, the bowl catches the light just so, and the liquid inside begins its slow, hypnotic dance; that's when the ordinary transforms into something transcendent."
+  field_featured_image:
+    -
+      entity: 83d5c2ee-e6a5-4378-a979-ee162ef26bb7
+  field_seo_analysis:
+    -
+      status: '8.4'
+      focus_keyword: Wine
+      title: ''
+      description: ''
