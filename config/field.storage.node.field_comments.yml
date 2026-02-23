@@ -9,7 +9,7 @@ field_name: field_comments
 entity_type: node
 type: comment
 settings:
-  comment_type: blog_comment
+  comment_type: comment_entity
 module: comment
 locked: false
 cardinality: 1
