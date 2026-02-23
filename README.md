@@ -9,6 +9,7 @@ Sets up blog content type.
 - [Curtis Tinkers CMS Comment](https://github.com/curtistinkers/curtistinkers_cms_comment)
 - [Curtis Tinkers CMS Theme Components](https://github.com/curtistinkers/curtistinkers_cms_theme_components)
 - [Drupal CMS Content Basics](https://www.drupal.org/project/drupal_cms_content_type_base)
+- [Drupal CMS SEO Basics](https://www.drupal.org/project/drupal_cms_seo_basics)
 - [Drupal CMS SEO Tools](https://www.drupal.org/project/drupal_cms_seo_tools)
 
 ## Modules and themes installed

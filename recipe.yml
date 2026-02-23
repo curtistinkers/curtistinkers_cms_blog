@@ -7,6 +7,7 @@ recipes:
   - curtistinkers_cms_media
   - curtistinkers_cms_theme_components
   - drupal_cms_content_type_base
+  - drupal_cms_seo_basic
   - drupal_cms_seo_tools
 install:
   - ckeditor5
