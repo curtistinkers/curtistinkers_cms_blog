@@ -3,5 +3,5 @@ status: true
 dependencies: {  }
 id: rfc822
 label: 'RFC-822 (used for RSS feeds, etc)'
-locked: false
+locked: true
 pattern: 'D, d M Y H:i:s O'
