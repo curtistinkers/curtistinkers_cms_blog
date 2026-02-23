@@ -2,6 +2,7 @@ name: Blog
 description: Provides blog entity.
 type: Curtis Tinkers CMS
 recipes:
+  - curtistinkers_cms_comment
   - curtistinkers_cms_media
   - curtistinkers_cms_theme_components
   - drupal_cms_content_type_base
@@ -35,27 +36,17 @@ config:
         theme: a11y-dark
     user.role.anonymous:
       grantPermissions:
-        - 'access comments'
         - 'view media'
     user.role.authenticated:
       grantPermissions:
-        - 'post comments'
-        - 'access comments'
         - 'view media'
-        - 'use text format comment_format'
     user.role.content_editor:
       grantPermissions:
         - 'create blog content'
         - 'delete own blog content'
         - 'edit own blog content'
-        - 'edit own comments'
-        - 'post comments'
-        - 'skip comment approval'
-        - 'access comments'
         - 'view media'
         - 'schedule publishing of nodes'
         - 'schedule publishing of taxonomy_term'
         - 'view scheduled content'
         - 'view scheduled taxonomy_term'
-        - 'use text format comment_format'
-
