@@ -25,9 +25,12 @@
         }
     },
     "require": {
+        "curtistinkers/curtistinkers_cms_comment": "dev-main",
         "curtistinkers/curtistinkers_cms_media": "dev-main",
+        "curtistinkers/curtistinkers_cms_theme_components": "dev-main",
 
         "drupal/drupal_cms_content_type_base": "^2",
+        "drupal/drupal_cms_seo_basic": "^2",
         "drupal/drupal_cms_seo_tools": "^2",
 
         "drupal/highlightjs_input_filter": "^1.1",
