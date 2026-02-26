@@ -18,6 +18,9 @@ default:
   uid:
     -
       target_id: 1
+  created:
+    -
+      value: '1700666700'
   title:
     -
       value: 'The majesty of a farmhouse in the woods'

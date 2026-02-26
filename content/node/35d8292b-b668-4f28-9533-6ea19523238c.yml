@@ -21,6 +21,9 @@ default:
   uid:
     -
       target_id: 1
+  created:
+    -
+      value: '1687111200'
   title:
     -
       value: "Northern Cardinal: America's most iconic red bird"

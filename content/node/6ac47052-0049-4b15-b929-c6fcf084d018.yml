@@ -22,6 +22,9 @@ default:
   uid:
     -
       target_id: 1
+  created:
+    -
+      value: '1710501120'
   title:
     -
       value: 'Leonardo da Vinci: the ultimate Renaissance man'
