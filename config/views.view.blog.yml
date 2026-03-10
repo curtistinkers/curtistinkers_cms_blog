@@ -10,6 +10,7 @@ dependencies:
     - node.type.blog
     - system.menu.main
   module:
+    - add_content_by_bundle
     - media
     - node
     - user
@@ -271,8 +272,24 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: '<h1>All blog posts</h1>'
+          content: '<h1 class="text-left text-primary heading-responsive-8xl">Blog posts</h1>'
           tokenize: false
+        add_content_by_bundle:
+          id: add_content_by_bundle
+          table: views
+          field: add_content_by_bundle
+          relationship: none
+          group_type: group
+          admin_label: 'Add a new post button'
+          plugin_id: add_content_by_bundle
+          label: 'Add a new blog post'
+          empty: true
+          bundle: blog
+          class: 'button add-content-by-bundle add-content-by-bundle-page add-content-by-bundle-primary-inverse'
+          target: ''
+          width: 600
+          form_mode: null
+          params: ''
       footer: {  }
       display_extenders: {  }
     cache_metadata:
@@ -294,7 +311,23 @@ display:
       defaults:
         header: false
       display_description: 'A list of all blog posts with a pager'
-      header: {  }
+      header:
+        add_content_by_bundle:
+          id: add_content_by_bundle
+          table: views
+          field: add_content_by_bundle
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: add_content_by_bundle
+          label: 'Add a new blog post'
+          empty: true
+          bundle: blog
+          class: 'button add-content-by-bundle add-content-by-bundle-block add-content-by-bundle-primary-inverse'
+          target: ''
+          width: 600
+          form_mode: null
+          params: ''
       display_extenders: {  }
       block_description: 'All blog posts'
       block_category: 'Blog posts'
@@ -315,6 +348,9 @@ display:
     position: 2
     display_options:
       enabled: false
+      title: Blog
+      defaults:
+        title: false
       display_description: 'A list of all blog posts with a pager'
       display_extenders: {  }
       path: blog
